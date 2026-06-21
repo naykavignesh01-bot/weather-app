@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Video Background */
+
 .background-video {
   position: fixed;
   top: 0;
@@ -18,7 +18,7 @@ body {
   z-index: -1;
 }
 
-/* Dark Overlay */
+
 .app::before {
   content: "";
   position: fixed;
@@ -31,7 +31,7 @@ body {
   pointer-events: none;
 }
 
-/* Main App */
+
 .app {
   min-height: 100vh;
   padding: 30px 20px;
@@ -41,7 +41,7 @@ body {
   background: transparent;
 }
 
-/* Glass Container */
+
 .weather-container {
   position: relative;
   z-index: 10;
@@ -67,7 +67,7 @@ body {
   text-align: center;
 }
 
-/* Header */
+
 .title {
   margin: 0;
   font-size: 36px;
@@ -79,7 +79,7 @@ body {
   color: rgba(255, 255, 255, 0.9);
 }
 
-/* Search Box */
+
 .search-box {
   display: flex;
   justify-content: center;
@@ -87,7 +87,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* Input */
+
 .search-box input {
   width: 280px;
   padding: 14px 18px;
@@ -111,7 +111,7 @@ body {
   color: rgba(255, 255, 255, 0.8);
 }
 
-/* Button */
+
 .search-box button {
   padding: 14px 22px;
 
@@ -134,7 +134,7 @@ body {
   background: rgba(255, 255, 255, 0.3);
 }
 
-/* Weather Card */
+
 .card {
   margin-top: 35px;
   color: white;
@@ -154,14 +154,14 @@ body {
   width: 100px;
 }
 
-/* Temperature */
+
 .temp {
   font-size: 65px;
   font-weight: bold;
   margin: 10px 0;
 }
 
-/* Bottom Info */
+
 .extra {
   margin-top: 25px;
 
@@ -186,7 +186,7 @@ body {
   font-weight: bold;
 }
 
-/* Messages */
+
 .info {
   margin-top: 20px;
   color: white;
@@ -198,7 +198,7 @@ body {
   font-weight: bold;
 }
 
-/* IMPORTANT */
+
 .clear-day,
 .clear-night,
 .clouds-day,
@@ -209,7 +209,7 @@ body {
   background: transparent;
 }
 
-/* Mobile */
+
 @media (max-width: 768px) {
   .weather-container {
     width: 95%;

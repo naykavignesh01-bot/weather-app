@@ -47,7 +47,7 @@ export default function App() {
 
       const isDay = hour >= 6 && hour < 18;
 
-      // CLEAR
+      
       if (condition === "Clear") {
         setBgClass(isDay ? "clear-day" : "clear-night");
 
@@ -70,7 +70,7 @@ export default function App() {
         }
       }
 
-      // CLOUDS
+      
       else if (condition === "Clouds") {
         setBgClass(isDay ? "clouds-day" : "clouds-night");
 
@@ -79,7 +79,7 @@ export default function App() {
           : setMobileBg("/images/cloudy.jpg");
       }
 
-      // RAIN
+      
       else if (
         condition === "Rain" ||
         condition === "Drizzle" ||
@@ -92,14 +92,14 @@ export default function App() {
           : setMobileBg("/images/rain.jpg");
       }
 
-      // SNOW
+      
       else if (condition === "Snow") {
         !isMobile
           ? setVideoSrc("/videos/snow.mp4")
           : setMobileBg("/images/snow.jpg");
       }
 
-      // DEFAULT
+      
       else {
         setBgClass("default");
 
